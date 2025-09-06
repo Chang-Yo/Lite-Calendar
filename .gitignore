@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# C++
+build/
+*.o
+*.so
+*.dll
+*.exe
+
+# IDE
+.vscode/
+.idea/
