@@ -9,7 +9,7 @@ void addToStartup(const std::wstring& appPath) {
     //    - Value Name: L"LiteCalendarNotifier"
     //    - Value Data: The path to the notifier executable (appPath)
     std::wcout << L"Adding to startup registry: " << appPath << L" (Placeholder)" << std::endl;
-    std::wcout << L"This would write to HKCU\Software\Microsoft\Windows\CurrentVersion\Run" << std::endl;
+    std::wcout << L"This would write to HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run" << std::endl;
 }
 
 // Placeholder function to remove the notifier from startup
